@@ -1,0 +1,17 @@
+@import './node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+.login-form {
+  padding: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  .login-field {
+    padding: 2rem 0;
+    span {
+      margin-left: 1rem;
+      &:first-child {
+        margin-left: 0rem;
+      }
+    }
+  }
+}
